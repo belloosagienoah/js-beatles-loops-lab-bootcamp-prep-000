@@ -42,4 +42,4 @@ function  iLoveTheBeatles (number){
   }
 }
 
-iLoveTheBeatles(3)
+iLoveTheBeatles(1)
