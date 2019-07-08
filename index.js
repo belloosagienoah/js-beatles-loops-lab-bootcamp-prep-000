@@ -22,3 +22,24 @@ function johnLennonFacts(array){
 }
 
 johnLennonFacts([ 'John Lennon plays Guitar ', 'PaulMcCartney plays Bass Guitar ', 'George Harrison plays LeadGuitar ', 'Ringo Starr plays Drums ' ] )
+
+function  iLoveTheBeatles (number){
+
+  var results =[];
+  var i = 0;
+
+  do{
+    i++;
+    results.push("I love the Beatles!");
+  }
+
+  while (i<number);
+  if (number<15){
+  return (results);
+}
+  else {
+    return (["I love the Beatles!"]);
+  }
+}
+
+iLoveTheBeatles(3)
